@@ -1,25 +1,21 @@
-# 🤖 AI Meeting-to-Proposal Automation
-> **Transforming transcripts into professional business assets in seconds.**
+# 🤖 AI Meeting-to-Proposal Generator
+> **Inspired by Nate Herk's AI Automation Framework.**
 
-This is a high-level **n8n workflow** designed for consultants and agencies. It bridges the gap between a sales call and a professional proposal by leveraging AI.
+This repository contains a high-end **n8n workflow** that automates the transition from a sales meeting (Fireflies transcript) to a professional Gamma.app presentation.
+
+## 🎥 Reference & Source
+This automation is based on the system built by **Nate Herk**. You can watch the full breakdown here:  
+👉 [Watch Video: I Built an AI System That Automates Business Proposals](https://youtu.be/KGXFkUlBHxw)
 
 ## 🌟 Key Features
-- **Fireflies Integration:** Automatically pulls meeting transcripts.
-- **AI Reasoning:** Uses **Gemini 1.5 Pro** to act as a Senior AI Solutions Consultant.
-- **Proposal Generation:** Creates a structured, high-converting business proposal.
-- **Gamma Presentation:** Automatically generates a 10-slide presentation deck via API.
-- **Human-in-the-loop:** Slack notifications for approval before the final deck is built.
+- **Smart Cleanup:** JS-based transcript cleaning for clear speaker identification.
+- **AI Consultation:** Gemini-powered logic to extract pain points and ROI.
+- **Auto-Presentation:** Direct API integration with Gamma.app for 10-slide decks.
+- **Human Approval:** Slack-based trigger to ensure quality before final output.
 
-## 🛠️ Tech Stack
-- **Automation:** [n8n.io](https://n8n.io/)
-- **Intelligence:** Gemini (via OpenRouter)
-- **Transcription:** Fireflies.ai
-- **Output:** Gamma.app, Google Sheets, Slack
-
-## 🚀 How to Setup
-1. **Import:** Download the `meeting-to-proposal.json` file and import it into your n8n.
-2. **Credentials:** Set up your API keys for Fireflies, OpenRouter, Gamma, and Slack.
-3. **Configure:** Update the Google Sheet ID and Slack Channel ID to match your environment.
+## 🛠️ Requirements
+- **n8n** (Self-hosted or Cloud)
+- **API Keys:** Fireflies.ai, OpenRouter (Gemini), Gamma.app, Slack.
 
 ---
-*Created by **Yanis** - AI Automation & Mechanical Engineer*
+*Maintained by **Yanis** - Marketing Consultant & AI Automation Engineer.*
