@@ -18,4 +18,11 @@ This automation is based on the system built by **Nate Herk**. You can watch the
 - **API Keys:** Fireflies.ai, OpenRouter (Gemini), Gamma.app, Slack.
 
 ---
+## 📬 Connect with Me
+Interested in AI Automation or have a project in mind? Let's connect!
+
+👉 **LinkedIn:** [Anis Mellah](https://www.linkedin.com/in/mellah-anis)
+👉 **GitHub:** [@yanis-mlh](https://github.com/yanis-mlh)
+👉 **Email:** anisski06@gmail.com
+
 *Maintained by **Yanis** - Marketing Consultant & AI Automation Engineer.*
